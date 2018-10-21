@@ -13,7 +13,7 @@ const int channelA_direction = 12; //Defining the Pin to control Motor A directi
 const int channelB_pwm = 11; //Defining the Pin to control Motor B speed.
 const int channelB_break = 8; //Defining the Pin to control Motor B break.
 const int channelB_direction = 13; //Defining the Pin to control Motor B direction.
-int distance = 10 //distance in cm 
+int distance = 10;                 //distance in cm
 
 void setup() {
   //Start serial communication between Arduino and the computer via USB
@@ -61,6 +61,9 @@ void forward(int motorSpeed) //This is the functions that controls the motores t
   analogWrite(channelB_pwm, motorSpeed + 10);  //Spins the motor on Channel B at motorSpeed specified by user.
 
 }
+
+// TODO 
+// Backwards function
 
 void turn(int motorSpeed, int turnDelay) //This functions controls the motores to turn, and it has two arguments which are the motor speed, and the time our robot will spend turning.
 {
