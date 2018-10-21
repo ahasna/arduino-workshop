@@ -1,6 +1,6 @@
 # Arduino Wall Avoiding Robot Project
-## For English Documentation go to `docs/eng`
+## For English Documentation [Here](https://github.com/ahasna/arduino-workshop/tree/master/docs/eng)
 
-## `docs/ar` تفاصيل المشروع باللغة العربية موجودة ضمن 
+## تفاصيل المشروع باللغة العربية [هنا](https://github.com/ahasna/arduino-workshop/tree/master/docs/ar)
 
-## Dokumentation auf Deutsch findest du unter `docs/de`
+## Dokumentation auf Deutsch findest [Hier](https://github.com/ahasna/arduino-workshop/tree/master/docs/de)
