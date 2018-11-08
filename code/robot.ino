@@ -38,13 +38,10 @@ void loop() {
 
   if (cm > distance) // choose a distance to let the robot move foreward.
   {
-    forward(150); //go forward @ speed 15
-
+    forward(150); //go forward @ speed 150
   }
-  else if (cm <= distance) {  // choose a distance to let the robot turn.
-  
-    turn(100,200); //Turn @ 15 speed and 20 delay(in milliseconds)
-
+  else {  // choose a distance to let the robot turn.
+    turn(100,200); //Turn @ 150 speed and 200 delay(in milliseconds)
   }
 
 }
