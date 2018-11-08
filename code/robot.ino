@@ -55,10 +55,10 @@ void forward(int motorSpeed) //This is the functions that controls the motores t
   //forward @ motorSpeed specified by user.
   digitalWrite(channelA_direction, HIGH);  //Setting direction of Channel A
   digitalWrite(channelA_break, LOW);   //Disengage the Brake for Channel A
-  analogWrite(channelA_pwm, motorSpeed - 10);    //Spins the motor on Channel A at motorSpeed specified by user.
+  analogWrite(channelA_pwm, motorSpeed);    //Spins the motor on Channel A at motorSpeed specified by user.
   digitalWrite(channelB_direction, LOW); //Setting direction of Channel B
   digitalWrite(channelB_break, LOW);   //Disengage the Brake for Channel B
-  analogWrite(channelB_pwm, motorSpeed + 10);  //Spins the motor on Channel B at motorSpeed specified by user.
+  analogWrite(channelB_pwm, motorSpeed);  //Spins the motor on Channel B at motorSpeed specified by user.
 
 }
 
