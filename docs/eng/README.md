@@ -1,5 +1,3 @@
-# English Documentation goes here
-
 # **Arduino obstacle avoiding robot** 
 ## **What do you need?**
 * Arduino __UNO__
